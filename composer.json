@@ -1,0 +1,25 @@
+{
+    "name": "adjuvant/adjuvant",
+    "type": "library",
+    "description": "Set of components for Adjust Projects",
+    "authors": [
+        {
+            "name": "Lemagus",
+            "email": "gabriel@adjust.be"
+        }
+    ],
+    "require": {
+        "adjuvant/translate": "dev-master",
+        "adjuvant/sitemap": "dev-master"
+    },
+    "repositories": [
+		{
+	        "type": "vcs",
+	        "url":  "https://github.com/Adjust-Agency/adjuvant-translate.git"
+        },
+        {
+	        "type": "vcs",
+	        "url":  "https://github.com/Adjust-Agency/adjuvant-sitemap.git"
+        }
+    ]
+}
